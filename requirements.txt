@@ -1,0 +1,15 @@
+numpy
+scipy
+scikit-image
+opencv-python
+pathlib
+torch
+torchvision
+trimesh
+chumpy
+configer
+configargparse
+torchgeometry
+PyYAML
+tqdm
+pillow
