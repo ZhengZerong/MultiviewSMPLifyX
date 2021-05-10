@@ -39,10 +39,10 @@ This repo is used for fitting SMPL models to 3D human scans in our [PaMIR](https
 
 To use it, please render the 3D scan from multiple viewpoints using the dataset generation code of PaMIR, 
 and use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to detect keypoints on the rendered images; 
-see```./testing_data``` for an example.
+see```./dataset_example``` for an example.
 After that, run:
 ```bash
-python main.py --config cfg_files/fit_smpl.yaml --data_folder ./testing_data/image_data/rp_dennis_posed_004 --output_folder ./testing_data/mesh_data/rp_dennis_posed_004
+python main.py --config cfg_files/fit_smpl.yaml --data_folder ./dataset_example/image_data/rp_dennis_posed_004 --output_folder ./dataset_example/mesh_data/rp_dennis_posed_004
 ```
 
 
