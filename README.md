@@ -42,7 +42,7 @@ and use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to 
 see```./dataset_example``` for an example.
 After that, run:
 ```bash
-python main.py --config cfg_files/fit_smpl.yaml --data_folder ./dataset_example/image_data/rp_dennis_posed_004 --output_folder ./dataset_example/mesh_data/rp_dennis_posed_004
+python main.py --config cfg_files/fit_smpl.yaml --data_folder ./dataset_example/image_data/rp_dennis_posed_004 --output_folder ./dataset_example/mesh_data/rp_dennis_posed_004/smpl
 ```
 
 
