@@ -35,12 +35,14 @@ smplx
 The last step is preparing the trained VPoser models. Please download them from [this webpage](https://smpl-x.is.tue.mpg.de/) and place the ```*.pt``` files in ```vposer/models/snapshots/```. 
 
 ## Usage
-This repo is meant to be used for fitting SMPL models to 3D human scans in our [PaMIR](https://github.com/ZhengZerong/PaMIR) project. 
+This repo is used for fitting SMPL models to 3D human scans in our [PaMIR](https://github.com/ZhengZerong/PaMIR) project. 
 
 To use it, please render the 3D scan from multiple viewpoints using the dataset generation code of PaMIR, 
-and use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to detect keypoints on the rendered images. After that, run:
+and use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to detect keypoints on the rendered images; 
+see```./testing_data``` for an example.
+After that, run:
 ```bash
-python main.py --config cfg_files/fit_smpl.yaml --data_folder ./path/to/the/image/root/ --output_folder ./path/to/output
+python main.py --config cfg_files/fit_smpl.yaml --data_folder ./testing_data/image_data/rp_dennis_posed_004 --output_folder ./testing_data/mesh_data/rp_dennis_posed_004
 ```
 
 

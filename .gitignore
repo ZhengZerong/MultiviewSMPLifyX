@@ -4,6 +4,5 @@
 __pycache__/
 .vscode/
 .idea/
-testing_data/
 smplx/models/
 vposer/models/snapshots/
